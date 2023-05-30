@@ -7,7 +7,7 @@ const port = 3000;
 
 
     // Connect to MongoDB
-    mongoose.connect('mongodb://127.0.0.1:27017/database', {
+    mongoose.connect('mongodb://localhost:27017/database', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }).catch(error => console.error(error));
